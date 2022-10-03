@@ -7,13 +7,11 @@ const Home = () => {
   }
     return (
     <>
+    
       <Herosection data={hello} />
     </>
   )
 }
-
-
-
 
 export default Home
 
