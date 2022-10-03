@@ -1,14 +1,18 @@
 import React from 'react'
-import styled from 'styled-components';
+import Herosection from './components/Herosection';
 
-const Home = (props) => {
+const Home = () => {
+  const hello ={
+    name:"Himanshu React Site",
+  }
     return (
     <>
-
-
+      <Herosection data={hello} />
     </>
   )
 }
 
 
+
 export default Home
+
