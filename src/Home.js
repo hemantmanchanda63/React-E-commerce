@@ -9,6 +9,7 @@ const Home = () => {
     <>
     Hello this is Himanshu 
       <Herosection data={hello} />
+      hell
     </>
   )
 }
