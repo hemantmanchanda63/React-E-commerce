@@ -7,7 +7,7 @@ const Home = () => {
   }
     return (
     <>
-    
+    Hello 
       <Herosection data={hello} />
     </>
   )
