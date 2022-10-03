@@ -7,7 +7,7 @@ const Home = () => {
   }
     return (
     <>
-    Hello 
+    Hello this is Himanshu 
       <Herosection data={hello} />
     </>
   )
