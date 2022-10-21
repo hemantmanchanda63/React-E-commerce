@@ -11,18 +11,15 @@ const Home = () => {
   }
     return (
     <>
-    Hello this is Himanshu 
       <Herosection data={hello} />
-<<<<<<< HEAD
-      hell this is hell
-=======
       <FeaturedProduct />
       <Services />
       <Trusted />
->>>>>>> changes
     </>
   )
 }
+
+
 
 export default Home
 
