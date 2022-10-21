@@ -1,39 +1,44 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import styled from 'styled-components'
-import { Button } from '../styles/Button'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import styled from "styled-components";
+
+import { Button } from "../styles/Button";
 
 const Herosection = ({ data }) => {
-const {name}= data;
+  const { name } = data;
 
   return (
     <>
-    <Css>
-            <div className="container">
-                <div className="grid grid-two-column">
-                    <div className="hero-section-data">
-                        <p className="intro-data">
-                        Welcome to 
-                        </p>
-                        <h1>{name}</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laborum, omnis inventore praesentium in accusantium quibusdam. Illum neque delectus, ex, minima doloribus perspiciatis animi iure sint voluptates cupiditate, odit tempore!</p>
-                        <NavLink>
-                            <Button>Shop Now </Button>
-                        </NavLink>
-                    </div>
-                    <div className="hero-section-image">
-                        <figure>
-                            <img src="/images/hero.jpg" alt="" className="img-style" />
-                        </figure>
-                    </div>
-                </div>
+      <Css>
+        <div className="container">
+          <div className="grid grid-two-column">
+            <div className="hero-section-data">
+              <p className="intro-data">Welcome to</p>
+              <h1>{name}</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis laborum, omnis inventore praesentium in accusantium
+                quibusdam. Illum neque delectus, ex, minima doloribus
+                perspiciatis animi iure sint voluptates cupiditate, odit
+                tempore!
+              </p>
+              <NavLink>
+                <Button>Shop Now </Button>
+              </NavLink>
             </div>
-    </Css>
+            <div className="hero-section-image">
+              <figure>
+                <img src="/images/hero.jpg" alt="" className="img-style" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </Css>
     </>
-  )
-}
+  );
+};
 
-export default Herosection
+export default Herosection;
 
 const Css = styled.section`
   padding: 12rem 0;
